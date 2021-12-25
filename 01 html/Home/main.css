@@ -1,0 +1,114 @@
+*{margin:0;
+	padding:0;}
+html{background: #F0EFE2 url(background.png) repeat;}	
+body{font:normal .80em 'Lato', arial, sans-serif;
+	background:#fff;
+	color: #000;
+	margin:0;
+	padding:0;
+	width:1000px;
+	margin:0 auto;
+	height:1600px;
+	}
+body>header{width:1000px;
+margin:0 auto;
+background: #F0EFE2 url(background.png) repeat;}	
+header h1{padding: 22px 0 0 0;
+    color: #FFF;
+    letter-spacing: -1px;
+    text-decoration: none;
+	font:normal 2.30em 'Lato', arial, sans-serif;}
+header h2{padding: 5px 0 0 0;
+    color: #FFF;
+    letter-spacing: 2px;
+    text-decoration: none;
+	font:normal 1em 'Lato', arial, sans-serif;}	
+header nav{width: 1000px;
+    height: 52px;
+    padding: 0;
+    background: #000;
+	border-top:solid #fff 3px;
+	margin-top:25px;}	
+header nav ul{list-style-type:0;
+			padding:0;
+			height: 52px;
+			display:table-cell;
+			vertical-align:middle;}	
+header nav ul li{
+		display:inline-block;
+		margin:0 15px;
+		
+}
+header nav ul li a{color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	}
+main{float: left;
+    width: 550px;
+    padding: 0 10px 0 25px;
+    margin-bottom: 2em;}
+main article h3{
+			font:normal 2em 'Lato', arial, sans-serif;
+			margin-top:20px;
+}
+main article p{
+			font:normal 1.2em 'Lato', arial, sans-serif;
+			margin:20px 10px;
+			text-align:justify;
+}	
+main article section h5{font:normal 1.3em 'Lato', arial, sans-serif;}
+main article section {background:#ccc;
+				margin-top:15px;
+				padding:10px;}	
+body>section{
+	width:400px;
+	float:right;
+	clear:right;
+}	
+body>section h2{
+	font:normal 2em 'Lato', arial, sans-serif;
+			margin-top:20px;
+}	
+body>section article{
+	
+			margin-top:20px;
+			margin-right:20px;
+	background:#ccc;	
+padding:5px;	
+}	
+body>section article h3{font:normal 1.8em 'Lato', arial, sans-serif;}
+body>section article p {font:normal 1.2em 'Lato', arial, sans-serif;
+			margin:5px;
+			text-align:justify;}	
+body>aside{
+			width:400px;
+			float:right;
+			clear:right;
+			margin-top:20px;
+			margin-right:5px;
+			padding:5px;
+			text-align: center;			
+}
+body>aside h3{font:normal 1.8em 'Lato', arial, sans-serif;
+			text-align:center;}
+body>aside p {font:normal 1.2em 'Lato', arial, sans-serif;
+			margin:5px;
+			text-align:justify;}
+body>footer{clear:both;
+    padding: 10px 0;
+	width:1000px;
+	margin:2em auto;
+	background: #000;
+	height:210px;
+
+}	
+body>footer address{display:block;
+				font:normal 1.2em 'Lato', arial, sans-serif;
+					margin:5px;
+					width:400px;
+					float:left;
+					color:#fff;
+					margin:20px 50px;
+					line-height:30px;}	
+body>footer address a{color:#fff;}					
+				
